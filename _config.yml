@@ -94,7 +94,7 @@ content:
   - title: Experience
     layout: top-middle
     content:
-      - layout: right
+      - layout: top-middle
         title: Perficient
         sub_title: Technical Consultant
         caption: July 2021 - present
