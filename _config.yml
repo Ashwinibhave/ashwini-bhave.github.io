@@ -56,7 +56,7 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, This is Ashwini Bhave. I build this website using devlopr-jekyll
 content:
   - title: Projects
-    layout: list
+    layout: top-middle
     content:
       - layout: left
         title: SAP Coveo Services Project
@@ -92,7 +92,7 @@ content:
           - Resolved issues with SharePoint Atomic and JSUI web parts, implementing export functionalities.
           - Managed migration of SharePoint hosted content and adjusted loading behaviors to improve user experience.
   - title: Experience
-    layout: list
+    layout: top-middle
     content:
       - layout: right
         title: Perficient
@@ -103,9 +103,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           Helped clients to improver their Enterprice search.
   - title: Education
-    layout: list
+    layout: top-middle
     content:
-      - layout: top-right
+      - layout: top-middle
         title: Dr. Babasaheb Ambedkar Technological University
         sub_title: Computer Science Engineering
         caption: 2018 - 2021
