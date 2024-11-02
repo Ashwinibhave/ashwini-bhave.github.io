@@ -50,7 +50,7 @@ linkedin_username: Ashwini Bhave
 
 # About Section
 # about_title: About Me (Use this to override about section title)
--layout: top-middle
+layout: top-middle
 about_profile_image: /images/images.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, This is Ashwini Bhave. I build this website using devlopr-jekyll
