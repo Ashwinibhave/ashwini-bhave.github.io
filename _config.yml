@@ -61,38 +61,33 @@ content:
       - layout: left
         title: SAP Coveo Services Project
         link_text: Link Text
-        quote: >
-          Conducted Coveo Atomic POC and integrated new applications to enhance user search experiences in the SAP project.
+        quote: > Conducted Coveo Atomic POC and integrated new applications to enhance user search experiences in the SAP project.
         description: |
           - Facilitated deployment using Coveo CLI and onboarded GetSupport Application and SAP4ME integrations.
           - Customized JSUI for ServiceNow and Coveo Admin Console, enhancing query parameters and result ranking strategies.
           - Collaborated with cross-functional teams to improve search experience and oversee indexing activities.
       - layout: left
         title: Blackline Coveo Project
-        quote: >
-          Achieved Coveo for Salesforce Developer Certification while implementing Coveo for Salesforce to enhance search functionalities.
+        quote: > Achieved Coveo for Salesforce Developer Certification while implementing Coveo for Salesforce to enhance search functionalities.
         description: |
           - Indexed Vidyard and Confluence Cloud using the Generic REST API Connector.
           - Implemented Agent Insight Panel and Community Search functionalities, focusing on advanced context setup and boosting strategies.
           - Customized web source connector to prevent duplicate content indexing and designed facets and results for the Insight Panel.
       - layout: left
         title: AWS DXP Retained Services
-        quote: >
-          Provided support for Coveo for Sitecore, resolving critical issues to improve system performance.
+        quote: > Provided support for Coveo for Sitecore, resolving critical issues to improve system performance.
         description: |
           - Cleaned up web documents and addressed global search indexing problems.
       - layout: left
         title: Handshake Baseline - Search and Analytics
-        quote: >
-          Contributed to the migration project, enhancing filtering capabilities and ensuring robust API functionality.
+        quote: > Contributed to the migration project, enhancing filtering capabilities and ensuring robust API functionality.
         description: |
           - Transitioned from Springfox to Springdocs and resolved Synk.io dependency issues.
           - Enhanced case filter transformer with advanced filtering using Spring Expression Language (SpEL).
           - Developed a Postman runner for comprehensive testing of the Handshake REST API.
       - layout: left
         title: Cap Group MSO Coveo
-        quote: >
-          Supported Coveo implementation for SharePoint, resolving issues and enhancing user search functionalities.
+        quote: > Supported Coveo implementation for SharePoint, resolving issues and enhancing user search functionalities.
         description: |
           - Resolved issues with SharePoint Atomic and JSUI web parts, implementing export functionalities.
           - Managed migration of SharePoint hosted content and adjusted loading behaviors to improve user experience.
