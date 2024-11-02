@@ -54,61 +54,48 @@ linkedin_username: Ashwini Bhave
 about_profile_image: /images/images.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, This is Ashwini Bhave. I build this website using devlopr-jekyll
-
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        # border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
         title: SAP Coveo Services Project
-        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
-        # additional_links:
-        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           Conducted Coveo Atomic POC and integrated new applications to enhance user search experiences in the SAP project.
-        description: | # this will include new lines to allow paragraphs
-          # Description about the work on/with the project
-            - Facilitated deployment using Coveo CLI and onboarded GetSupport Application and SAP4ME integrations.     
-            - Customized JSUI for ServiceNow and Coveo Admin Console, enhancing query parameters and result ranking strategies.           
-            - Collaborated with cross-functional teams to improve search experience and oversee indexing activities.
-        - layout: left
-          title: Blackline Coveo Project
-          quote: >
-          Achieved Coveo for Salesforce Developer Certification while implementing Coveo for Salesforce to enhance search functionalities. 
-          description: > #| this will include new lines to allow paragraphs
-            - Indexed Vidyard and Confluence Cloud using the Generic REST API Connector.     
-            - Implemented Agent Insight Panel and Community Search functionalities, focusing on advanced context setup and boosting strategies.
-            - Customized web source connector to prevent duplicate content indexing and designed facets and results for the Insight Panel.
-        - layout: left
-          title: AWS DXP Retained Services
-          quote: >
-          Provided support for Coveo for Sitecore, resolving critical issues to improve system performance. 
-          description: >
-             - Cleaned up web documents and addressed global search indexing problems.
-        - layout: left
-          title:  Handshake Baseline - Search and Analytics
-          quote: >
-           Contributed to the migration project, enhancing filtering capabilities and ensuring robust API functionality.
-          description: >
-          - Transitioned from Springfox to Springdocs and resolved Synk.io dependency issues.    
-          - Enhanced case filter transformer with advanced filtering using Spring Expression Language (SpEL).          
+        description: |
+          - Facilitated deployment using Coveo CLI and onboarded GetSupport Application and SAP4ME integrations.
+          - Customized JSUI for ServiceNow and Coveo Admin Console, enhancing query parameters and result ranking strategies.
+          - Collaborated with cross-functional teams to improve search experience and oversee indexing activities.
+      - layout: left
+        title: Blackline Coveo Project
+        quote: >
+          Achieved Coveo for Salesforce Developer Certification while implementing Coveo for Salesforce to enhance search functionalities.
+        description: |
+          - Indexed Vidyard and Confluence Cloud using the Generic REST API Connector.
+          - Implemented Agent Insight Panel and Community Search functionalities, focusing on advanced context setup and boosting strategies.
+          - Customized web source connector to prevent duplicate content indexing and designed facets and results for the Insight Panel.
+      - layout: left
+        title: AWS DXP Retained Services
+        quote: >
+          Provided support for Coveo for Sitecore, resolving critical issues to improve system performance.
+        description: |
+          - Cleaned up web documents and addressed global search indexing problems.
+      - layout: left
+        title: Handshake Baseline - Search and Analytics
+        quote: >
+          Contributed to the migration project, enhancing filtering capabilities and ensuring robust API functionality.
+        description: |
+          - Transitioned from Springfox to Springdocs and resolved Synk.io dependency issues.
+          - Enhanced case filter transformer with advanced filtering using Spring Expression Language (SpEL).
           - Developed a Postman runner for comprehensive testing of the Handshake REST API.
-        - layout: left
-          title: Cap Group MSO Coveo
-          quote: >
+      - layout: left
+        title: Cap Group MSO Coveo
+        quote: >
           Supported Coveo implementation for SharePoint, resolving issues and enhancing user search functionalities.
-          description: >
-          - Resolved issues with SharePoint Atomic and JSUI web parts, implementing export functionalities.    
+        description: |
+          - Resolved issues with SharePoint Atomic and JSUI web parts, implementing export functionalities.
           - Managed migration of SharePoint hosted content and adjusted loading behaviors to improve user experience.
-          
   - title: Experience
     layout: list
     content:
@@ -118,7 +105,6 @@ content:
         caption: July 2021 - present
         link: https://www.perficient.com/
         quote: >
-          # Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Helped clients to improver their Enterprice search.
   - title: Education
@@ -129,15 +115,13 @@ content:
         sub_title: Computer Science Engineering
         caption: 2018 - 2021
         quote: >
-          # Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          # Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
